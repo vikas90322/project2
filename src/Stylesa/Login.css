@@ -1,0 +1,27 @@
+.Logincon{
+    display: flex;
+    position: relative;
+    left: 3em;
+    padding: 1em;
+   background-size: cover;
+
+   
+}
+.Logincon form{
+    border: 1px solid black;
+    padding: 1em;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+
+}
+.Logincon form div button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2.5em;
+    padding: .2em 1em;
+    margin-left: 3em;
+}
+.Logincon form div{
+    padding:.5em 1.5em ;
+}

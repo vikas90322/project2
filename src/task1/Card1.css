@@ -1,0 +1,16 @@
+.cardcontainer{
+    border: 1px solid black;
+    margin: 1em; 
+    border-radius: 1em;
+    box-shadow: rgba(147, 144, 144, 0.56) 0px 6px 15px 4px;
+    padding: 1em;
+    transition: all .4s ease;
+}
+.cardcontainer:hover{
+    box-shadow: rgba(13, 13, 14, 0.56) 0px 6px 15px 4px;
+    scale: 1.03;
+}
+.GridCardcontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+}

@@ -23,12 +23,11 @@ const Login = () => {
     const handleSubmit = (e) => {e.preventDefault();
         // navigate('/Dashboard', {state:{ Submitteddata: loginData}});
 
-        if(data.Email===loginData.email && data.Password===loginData.password){
-          navigate('/', {state:{ Submitteddata: loginData}});
+        if(data.email===loginData.email && data.password===loginData.password){
+          navigate('/Task3', {state:{ Submitteddata: loginData}});
         }
         else{
-            alert("Worng Credencials")
-          
+            alert("Worng Credencials");
         }
       }
   

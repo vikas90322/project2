@@ -1,14 +1,19 @@
+.Registercona1{
+  margin: 0%;
+}
 .Registercon{
     display: flex;
     position: relative;
     left: 3em;
     padding: 1em;
    background-size: cover;
+ 
   
 }
 .Registercon form{
     border: 1px black solid;
     padding: 2em;
+    background-color: rgba(0, 0, 0, 0.265);
    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
    
     
@@ -19,7 +24,7 @@
     border: none;
     border-radius: 2.5em;
     padding: .2em 1em;
-    margin-left: 3em;
+   
 }
 .Registercon form div{
   line-height: 2em;

@@ -78,7 +78,7 @@ export class Logina extends Component {
             </div>
           </div>
 
-          <div id='main'style={{backgroundImage:'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC19LpT2FESW4QFDcURy02HHSsvbpptJ9y6g&usqp=CAU)',backgroundSize:'cover'}}>
+          <div id='main'>
             <div className='header'>
               <h3 className={`
             title

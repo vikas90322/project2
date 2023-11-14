@@ -11,6 +11,7 @@
     border: 1px solid black;
     padding: 1em;
    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   background-color: rgba(0, 0, 0, 0.265);
 
 
 }
@@ -20,7 +21,7 @@
     border: none;
     border-radius: 2.5em;
     padding: .2em 1em;
-    margin-left: 3em;
+  
 }
 .Logincon form div{
     padding:.5em 1.5em ;
